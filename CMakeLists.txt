@@ -50,10 +50,22 @@ endif()
 list(APPEND GAME_SOURCE
      Classes/AppDelegate.cpp
      Classes/HelloWorldScene.cpp
+     Classes/BoardModule.cpp
+     Classes/Puzzle/ShaderPieceSkin.cpp
+     Classes/Puzzle/StandardInputHandler.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
      Classes/HelloWorldScene.h
+     Classes/BoardModule.h
+     Classes/Puzzle/GameConfig.h
+     Classes/Puzzle/PieceSkin.h
+     Classes/Puzzle/ShaderPieceSkin.h
+     Classes/Puzzle/PuzzlePiece.h
+     Classes/Puzzle/PuzzleGenerator.h
+     Classes/Puzzle/RandomPuzzleGenerator.h
+     Classes/Puzzle/InputHandler.h
+     Classes/Puzzle/StandardInputHandler.h
      )
 
 if(ANDROID)

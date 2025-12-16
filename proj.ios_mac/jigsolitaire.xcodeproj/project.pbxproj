@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B00571BB2EEBFB9F00B414D5 /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = B00571BA2EEBFB9F00B414D5 /* shaders */; };
-		B00571BC2EEBFB9F00B414D5 /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = B00571BA2EEBFB9F00B414D5 /* shaders */; };
 		1A88B2641FC3D9C9005C14AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A88B2631FC3D9C9005C14AE /* Images.xcassets */; };
 		1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */; };
 		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
@@ -31,8 +29,6 @@
 		46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7A19C43A67006E1F66 /* HelloWorld.png */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
-		46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10517EB98FF00D1A890 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503AE10317EB98FF00D1A890 /* main.cpp */; };
 		503AE11B17EB9C5A00D1A890 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503AE11A17EB9C5A00D1A890 /* IOKit.framework */; };
@@ -48,6 +44,8 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		B00571BB2EEBFB9F00B414D5 /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = B00571BA2EEBFB9F00B414D5 /* shaders */; };
+		B00571BC2EEBFB9F00B414D5 /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = B00571BA2EEBFB9F00B414D5 /* shaders */; };
 		B04ADED22EEBEBC500E61AB2 /* BoardModuleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B04ADED12EEBEBC500E61AB2 /* BoardModuleTest.cpp */; };
 		B04ADED32EEBEBC500E61AB2 /* BoardModule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B04ADECF2EEBEBC500E61AB2 /* BoardModule.cpp */; };
 		B04ADED42EEBEBC500E61AB2 /* BoardModuleTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B04ADED12EEBEBC500E61AB2 /* BoardModuleTest.cpp */; };
@@ -127,8 +125,6 @@
 		46880B7A19C43A67006E1F66 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
-		46880B8719C43A87006E1F66 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE10317EB98FF00D1A890 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = mac/main.cpp; sourceTree = "<group>"; };
@@ -159,6 +155,7 @@
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B00571BA2EEBFB9F00B414D5 /* shaders */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = shaders; sourceTree = "<group>"; };
+		B0B76DF72EF118A800E3F3FA /* Puzzle */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Puzzle; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,14 +297,13 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B0B76DF72EF118A800E3F3FA /* Puzzle */,
 				B04ADECE2EEBEBC500E61AB2 /* BoardModule.h */,
 				B04ADECF2EEBEBC500E61AB2 /* BoardModule.cpp */,
 				B04ADED02EEBEBC500E61AB2 /* BoardModuleTest.h */,
 				B04ADED12EEBEBC500E61AB2 /* BoardModuleTest.cpp */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
-				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
-				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -351,6 +347,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				B00571BA2EEBFB9F00B414D5 /* shaders */,
+				B0B76DF72EF118A800E3F3FA /* Puzzle */,
 			);
 			name = "jigsolitaire-mobile";
 			productName = iphone;
@@ -372,6 +369,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				B00571BA2EEBFB9F00B414D5 /* shaders */,
+				B0B76DF72EF118A800E3F3FA /* Puzzle */,
 			);
 			name = "jigsolitaire-desktop";
 			productName = iphone;
@@ -483,7 +481,6 @@
 				B04ADED52EEBEBC500E61AB2 /* BoardModule.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				1AF87B8A1F6F7822007BE51C /* main.m in Sources */,
-				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +492,6 @@
 				B04ADED32EEBEBC500E61AB2 /* BoardModule.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
-				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,5 +15,4 @@ public:
 
 private:
     BoardModule* board;  // 拼图模块
-    cocos2d::EventListenerTouchOneByOne* _touchListener;
 };
